@@ -1,0 +1,78 @@
+.content{
+width: 980px;
+margin: 0 auto;
+}
+
+.title-back{
+  /*IE10 Consumer Preview */
+	background-image: -ms-linear-gradient(top,#EDCA2F 0%,#EDCA2F 50%,#DDBE34 50%);
+	/* Mozilla Firefox */
+	background-image: -moz-linear-gradient(top,#EDCA2F 0%,#EDCA2F 50%,#DDBE34 50%);
+	/* Opera */
+	background-image: -o-linear-gradient(top,#EDCA2F 0%,#EDCA2F 50%,#DDBE34 50%);
+	/* Webkit (Safari/Chrome 10) */
+	background-image: -Webkit-gradient(linear,left top,left bottom,color-stop(0,#EDCA2F),color-stop(0,5,#EDCA2F),color-stop(0.501,#DDBE34),color-stop(1,#DDBE34));
+	/* Webkit (Chrome 11+) */
+	background-image: -webkit-linear-gradient(top,#EDCA2F 0%,#EDCA2F 50%,#DDBE34 50.1%,#DDBE34 100%);
+	/* W3C Markup, IE10 Release Preview */
+	background-image:linear-gradient(to bottom,#EDCA2F 0%,#EDCA2F 50%,#DDBE34 50.1%,#DDBE34 100%);
+}
+.sub-title{
+ background-color: #7fffd4
+}
+.sub-title-about{
+ color: #ff0000
+}
+.title2{
+color: rgb(37, 179, 228);
+}
+.title3{
+color: rgb(26, 244, 100);
+}
+.title4{
+color: rgb(212, 160, 233);
+}
+.left-side-menu{
+display: inline-block;
+float: inherit;
+vertical-align: top;
+padding-top: 0px;
+}
+#menu ul{
+margin: 0;
+padding: 0;
+list-style: none;
+}
+#menu li{
+display: inline;
+padding: 0;
+margin: 0;
+}
+#menu li a{
+display: block;
+border-left: 8px solid #C97556;
+background-color: rgb(48, 41, 47);
+padding: 3px 10px;
+text-decoration: none;
+color: #E1E2CF;
+height:50px;
+width: 200px;
+margin: 1px 0px;
+text-align: left;
+font-size: 14px;
+}
+#menu li a:hover{
+border-left: 8px solid #990033;
+background-color: #474655;
+}
+
+.main-content{
+display: inline-block;
+align: left;
+}
+.title-title1{
+  font-style: italic;
+  font-weight: bold;
+  width: 400px;
+
+}
